@@ -112,6 +112,7 @@ nav {
     transition: transform .3s ease-in;
 }
 .in {
+    transition: transform .3s ease-in;
     transform: translateX(0);
 }
 /* Sidebar menu */
