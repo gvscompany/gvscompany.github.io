@@ -1,8 +1,42 @@
-body {
-    background: #d95323;
+/* Fonts */
+@font-face {
+    font-family: 'Ubuntu-Regular', sans-serif;
+    src: url(../fonts/ubuntu/Ubuntu-Regular.ttf);
 }
-.container {
-    height: 100vh; /* высота секции равна высоте области просмотра */
+@font-face {
+    font-family: 'Ubuntu-Medium', sans-serif;
+    src: url(../fonts/ubuntu/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-Light', sans-serif;
+    src: url(../fonts/ubuntu/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-Italic', sans-serif;
+    src: url(../fonts/ubuntu/Ubuntu-Italic.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-Bold', sans-serif;
+    src: url(../fonts/ubuntu/Ubuntu-Bold.ttf);
+}
+/* /Fonts */
+body {
     background: #401e1e;
     color: #fff;
+    font-family: Ubuntu-Light, Arial, Verdana, sans-serif;
+}
+.wrapper {
+    min-height: 100vh; /* высота секции равна высоте области просмотра */
+    color: #fff;
+    background: #d95323;
+}
+nav {
+    background: #401e1e;
+}
+.logo-a {
+    width: 45%;
+    overflow: hidden;
+}
+.logo-img {
+    width: 100%;
 }
