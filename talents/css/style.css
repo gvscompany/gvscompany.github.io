@@ -92,6 +92,7 @@ nav {
     top: 0;
     left: 0;
     transition: transform .3s ease-out;
+    transform: translateX(0);
 }
 .out {
     transform: translateX(-300px);
