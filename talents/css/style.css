@@ -23,6 +23,8 @@
 body {
     background: #263147;
     color: #fff;
+    padding: 0;
+    margin: 0;
     font-family: Ubuntu-Light, Arial, Verdana, sans-serif;
 }
 .wrapper {
@@ -62,6 +64,7 @@ nav {
     width: 100%;
 }
 .menu-btn {
+    outline: none;
     margin: 20px 5px 10px 0;
     border: none;
     background: none;
@@ -70,3 +73,44 @@ nav {
     font-size: 25px;
     color: #C1FF95;
 }
+
+
+
+
+
+.content-block {
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+/* Content */
+.content {
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .3s ease-in;
+}
+.out {
+    transform: translateX(-300px);
+}
+/* Content */
+
+/* Sidebar menu */
+.sidebar-menu {
+    background: #263147;
+    width: 300px;
+    height: 100vh;
+    padding-top: 80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: transform .3s ease-in;
+    transform: translateX(300px);
+}
+.in {
+    transform: translateX(0);
+}
+/* Sidebar menu */
