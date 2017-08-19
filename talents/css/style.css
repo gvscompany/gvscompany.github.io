@@ -91,7 +91,7 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    transition: transform .3s ease-in;
+    transition: transform .3s ease-out;
 }
 .out {
     transform: translateX(-300px);
@@ -107,7 +107,7 @@ nav {
     position: absolute;
     right: 0;
     top: 0;
-    transition: transform .3s ease-in;
+    transition: transform .3s ease-out;
     transform: translateX(300px);
 }
 .in {
