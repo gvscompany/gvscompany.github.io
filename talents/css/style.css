@@ -21,22 +21,52 @@
 }
 /* /Fonts */
 body {
-    background: #401e1e;
+    background: #263147;
     color: #fff;
     font-family: Ubuntu-Light, Arial, Verdana, sans-serif;
 }
 .wrapper {
     min-height: 100vh; /* высота секции равна высоте области просмотра */
     color: #fff;
-    background: #d95323;
+    background: #C1FF95;
 }
 nav {
-    background: #401e1e;
+    background: #263147;
+}
+.select-lang-ul {
+    margin: 20px 0 10px 0;
+}
+.select-lang-ul > li > a {
+    display: table-cell;
+    outline: none;
+    border: 2px solid #C1FF95;
+    border-radius: 50%;
+    color: #C1FF95;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+}
+.select-lang-ul > li > a:hover {
+    background: #C1FF95;
+    color: #263147;
+    text-decoration: none;
 }
 .logo-a {
-    width: 45%;
+    width: 500px;
+    height: 80px;
     overflow: hidden;
 }
 .logo-img {
     width: 100%;
+}
+.menu-btn {
+    margin: 20px 5px 10px 0;
+    border: none;
+    background: none;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    color: #C1FF95;
 }
