@@ -35,6 +35,9 @@ body {
 nav {
     background: #263147;
 }
+.change-lang-block {
+    display: none;
+}
 .select-lang-ul {
     margin: 20px 0 10px 0;
 }

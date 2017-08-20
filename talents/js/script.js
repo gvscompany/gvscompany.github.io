@@ -24,4 +24,9 @@ $(document).ready(function () {
         // }
     });
     /* Open/Close menu */
+
+    $('.langs').on('click', function () {
+        $('#base-lang').text($(this).text());
+    });
+
 });
