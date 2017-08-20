@@ -3,7 +3,7 @@ $(document).ready(function () {
     $(document).on('click', '.menu-btn', function () {
         var myMenu = $('.sidebar-menu');
         var myContent = $('.content');
-        // var links = $('.menu-list > li > a');
+        var links = $('.sidebar-ul > li');
 
         if (myMenu.hasClass('in')) {
             myMenu.removeClass('in');
@@ -17,11 +17,11 @@ $(document).ready(function () {
         } else {
             myContent.addClass('out');
         }
-        // if (links.hasClass('open')) {
-        //     links.removeClass('open');
-        // } else {
-        //     links.addClass('open');
-        // }
+        if (links.hasClass('open')) {
+            links.removeClass('open');
+        } else {
+            links.addClass('open');
+        }
     });
     /* Open/Close menu */
 
