@@ -1,0 +1,98 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    /* Top line */
+    .logo-a {
+        width: 400px;
+        height: 65px;
+        overflow: hidden;
+    }
+    .select-lang-ul.list-inline > li {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .select-lang-ul > li > a {
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+    }
+    .menu-btn {
+        font-size: 20px;
+    }
+    /* Top line */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .select-lang-ul {
+        margin: 17px -7px 10px -7px;
+    }
+    .select-lang-ul.list-inline > li {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .select-lang-ul > li > a {
+        width: 22px;
+        height: 22px;
+        font-size: 13px;
+    }
+    .logo-a {
+        width: 90%;
+        height: 58px;
+    }
+    .menu-btn {
+        margin: 17px 5px 10px 0;
+    }
+}
+
+@media only screen and (max-width : 560px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
