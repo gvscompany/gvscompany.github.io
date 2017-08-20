@@ -115,7 +115,58 @@ nav {
 }
 /* Menu button */
 
-
+/* Sidebar menu */
+.sidebar-ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.sidebar-ul > li {
+    border-bottom: 1px solid rgba(193, 255, 149, 0.5);
+    transform: translateX(290px);
+}
+.sidebar-ul > li > a {
+    display: inline-block;
+    width: 100%;
+    padding: 13px 10px;
+    text-decoration: none;
+    color: #C1FF95;
+    font-size: 17px;
+    transition: all .2s ease-in-out;
+}
+.sidebar-ul > li > a:hover {
+    background: #C1FF95;
+    color: #263147;
+}
+.sidebar-ul > li > a:hover .dot {
+    background: #263147;
+}
+.sidebar-ul > li.open {
+    transform: translateX(0);
+}
+.circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #C1FF95;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+}
+.dot {
+    display: inline-block;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background: #C1FF95;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.sidebar-ul > li:hover .circle {
+    border-color: #263147;
+}
+/* Sidebar menu */
 
 
 .content-block {
@@ -133,11 +184,50 @@ nav {
     width: 100%;
     height: 100vh;
     transform: translateX(0);
-    -webkit-transition: all .3s linear;
-    transition: all .3s linear;
+    transition: all .4s ease;
 }
 .content.out {
     transform: translateX(-300px);
+}
+.home-content {
+    min-height: 100%;
+    padding-top: 13%;
+}
+.home-block {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.home-img-a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.home-block-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(38, 49, 71, 0.55);
+    text-align: center;
+    color: #c1ff95;
+    padding: 5px 0;
+    outline: none;
+    text-decoration: none;
+    font-size: 24px;
+}
+.home-block-title:hover {
+    outline: none;
+    text-decoration: none;
+    color: #c1ff95;
+}
+.home-img-a > img {
+    transition: all .3s;
+}
+.home-img-a:hover > img {
+    transform: scale(1.2);
 }
 /* Content */
 
@@ -151,8 +241,7 @@ nav {
     width: 300px;
     height: 100vh;
     transform: translateX(300px);
-    -webkit-transition: all .3s linear;
-    transition: all .3s linear;
+    transition: all .4s ease;
 }
 .sidebar-menu.in {
     transform: translateX(0);
@@ -419,21 +508,4 @@ nav {
     height: -3.40909091%;
 }
 /* /BG EFFECT *****************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
