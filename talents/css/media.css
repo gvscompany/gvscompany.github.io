@@ -102,6 +102,12 @@
     .page-title {
         display: none;
     }
+
+    /* Map */
+    .map-img-col {
+        padding: 5px;
+    }
+    /* Map */
 }
 
 /* Extra Small Devices, Phones */
