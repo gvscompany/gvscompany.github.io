@@ -103,6 +103,12 @@ nav {
 /* Logo */
 
 /* Menu button */
+.page-title {
+    color: #C1FF95;
+    display: inline-block;
+    margin-top: 26px;
+    border-bottom: 1px solid #C1FF95;
+}
 .menu-btn {
     outline: none;
     margin: 20px 5px 10px 0;
@@ -191,7 +197,7 @@ nav {
 }
 .home-content {
     min-height: 100%;
-    padding-top: 13%;
+    padding-top: 12%;
 }
 .home-block {
     position: relative;
@@ -199,6 +205,7 @@ nav {
     height: 100%;
     margin: 0 auto;
     overflow: hidden;
+    box-shadow: 0 0 20px rgb(59, 69, 87);
 }
 .home-img-a {
     display: inline-block;
@@ -224,12 +231,50 @@ nav {
     color: #c1ff95;
 }
 .home-img-a > img {
+    width: 100%;
     transition: all .3s;
 }
 .home-img-a:hover > img {
     transform: scale(1.2);
 }
 /* Content */
+
+/* Social icon */
+.soc-block {
+    height: 100%;
+    position: relative;
+}
+.soc-icons {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    bottom: 250px;
+}
+.soc-icons > li {
+    width: 100%;
+    padding: 5px;
+}
+.soc-icons > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: #c1ff95;
+    border: 2px solid #c1ff95;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    padding-top: 2px;
+    margin-right: 15px;
+    transition: all .3s;
+}
+.soc-icons > li > a:hover {
+    background: #c1ff95;
+    color: #263147;
+    border-color: #263147;
+}
+/* Social icon */
 
 /* Sidebar menu */
 .sidebar-menu {
@@ -249,6 +294,70 @@ nav {
 /* Sidebar menu */
 
 
+/* Courses page ******************************************************/
+.base-container {
+    background: #263147;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 20px rgb(59, 69, 87);
+}
+.base-container > .row {
+    border-bottom: 1px solid #C1FF95;
+    padding: 15px 0 20px 0;
+    transition: all .2s;
+}
+.base-container > .row:hover {
+    background: #33415b;
+}
+.courses-title {
+    margin-top: 0;
+    border-bottom: 1px solid #C1FF95;
+}
+.courses-title-a {
+    text-transform: uppercase;
+    color: #c1ff95;
+}
+.courses-title-a:hover {
+    color: #c1ff95;
+    text-decoration: none;
+}
+.courses-img-a {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+.courses-img-a > img {
+    width: 100%;
+}
+.read-more {
+    color: #c1ff95;
+}
+.read-more:hover {
+    color: #c1ff95;
+    text-decoration: none;
+}
+.read-more-arrow {
+    transition: all .3s;
+}
+.read-more:hover {
+    cursor: pointer;
+}
+.read-more:hover .read-more-arrow {
+    margin-left: 10px;
+}
+.statement-btn {
+    background: transparent;
+    color: #C1FF95;
+    border-color: #C1FF95;
+    transition: all .2s;
+    border-radius: 0;
+}
+.statement-btn:hover {
+    background: #C1FF95;
+    color: #263147;
+}
+/* Courses page ******************************************************/
 
 
 
@@ -257,11 +366,10 @@ nav {
 
 
 
-/* BG EFFECT ******************************************************/
+/* BODY BG EFFECT ******************************************************/
 .Cloud.Foreground {
     z-index: -1;
 }
-
 @-webkit-keyframes FadeIn {
     from {
         opacity: 0;
@@ -347,7 +455,6 @@ nav {
     }
 }
 
-
 .Cloud:nth-child(1) {
     -webkit-animation-delay: -18.46153846s;
     animation-delay: -18.46153846s;
@@ -359,8 +466,8 @@ nav {
     /*height: 12.5%;*/
 }
 .Cloud.Background:nth-child(1) {
-    -webkit-animation-duration: 146s;
-    animation-duration: 146s;
+    -webkit-animation-duration: 160s;
+    animation-duration: 160s;
     /*height: 7.84090909%;*/
 }
 
@@ -375,8 +482,8 @@ nav {
     height: 15%;
 }
 .Cloud.Background:nth-child(2) {
-    -webkit-animation-duration: 142s;
-    animation-duration: 142s;
+    -webkit-animation-duration: 70s;
+    animation-duration: 70s;
     height: 6.59090909%;
 }
 
@@ -407,8 +514,8 @@ nav {
     height: 20%;
 }
 .Cloud.Background:nth-child(4) {
-    -webkit-animation-duration: 134s;
-    animation-duration: 134s;
+    -webkit-animation-duration: 125s;
+    animation-duration: 125s;
     height: 4.09090909%;
 }
 
@@ -423,8 +530,8 @@ nav {
     height: 22.5%;
 }
 .Cloud.Background:nth-child(5) {
-    -webkit-animation-duration: 130s;
-    animation-duration: 130s;
+    -webkit-animation-duration: 250s;
+    animation-duration: 250s;
     height: 2.84090909%;
 }
 
@@ -503,11 +610,11 @@ nav {
     height: 35%;
 }
 .Cloud.Background:nth-child(10) {
-    -webkit-animation-duration: 110s;
-    animation-duration: 110s;
+    -webkit-animation-duration: 100s;
+    animation-duration: 100s;
     height: -3.40909091%;
 }
-/* /BG EFFECT *****************************************************/
+/* /BODY BG EFFECT *****************************************************/
 
 
 
