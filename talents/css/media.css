@@ -29,6 +29,16 @@
         margin: 0 auto 30px auto;
     }
     /* Content home */
+
+    /* About */
+    .about-img-block {
+        margin-bottom: 30px;
+    }
+    .about-video-block {
+        background: black;
+        margin-bottom: 30px;
+    }
+    /* About */
 }
 
 /* Small Devices, Tablets */
@@ -67,6 +77,19 @@
         width: 90%;
     }
     /* Content home */
+
+    /* About */
+    .about-img-block {
+        width: 80%;
+        margin: 15px auto;
+    }
+    .about-zoom-icon {
+        line-height: 300px;
+    }
+    video {
+        height: 300px;
+    }
+    /* About */
 }
 
 @media only screen and (max-width : 560px) {
@@ -75,6 +98,9 @@
     }
     .change-lang-block {
         display: block;
+    }
+    .page-title {
+        display: none;
     }
 }
 
@@ -125,6 +151,20 @@
         transform: translateX(220px);
     }
     /* Content */
+
+
+    /* About */
+    .about-img-block {
+        width: 100%;
+        margin: 15px auto;
+    }
+    .about-zoom-icon {
+        line-height: 250px;
+    }
+    video {
+        height: 200px;
+    }
+    /* About */
 }
 
 /* Custom, iPhone Retina */
