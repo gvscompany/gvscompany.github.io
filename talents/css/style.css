@@ -360,6 +360,38 @@ nav {
 /* Courses page ******************************************************/
 
 
+/* Statements page ******************************************************/
+.statements .form-group .form-control {
+    background: rgb(221, 255, 196);
+    color: #263147;
+    font-size: 16px;
+    padding: 4px 12px;
+    box-shadow: none;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.statements-desc {
+    font-size: 12px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #C1FF95;
+    padding-bottom: 10px;
+}
+.send-statement {
+    background: transparent;
+    color: #C1FF95;
+    border-color: #C1FF95;
+    transition: all .2s;
+    border-radius: 0;
+}
+.send-statement:hover {
+    background: #C1FF95!important;
+    color: #263147;
+}
+/* Statements page ******************************************************/
+
+
 
 
 
@@ -367,9 +399,6 @@ nav {
 
 
 /* BODY BG EFFECT ******************************************************/
-.Cloud.Foreground {
-    z-index: -1;
-}
 @-webkit-keyframes FadeIn {
     from {
         opacity: 0;
@@ -468,7 +497,7 @@ nav {
 .Cloud.Background:nth-child(1) {
     -webkit-animation-duration: 160s;
     animation-duration: 160s;
-    /*height: 7.84090909%;*/
+    height: 7.84090909%;
 }
 
 .Cloud:nth-child(2) {

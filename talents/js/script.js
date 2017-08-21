@@ -29,4 +29,16 @@ $(document).ready(function () {
         $('.change-lang-text').text($(this).text());
     });
 
+    // Input education
+    $('#education').on('change', function () {
+        if ($(this).val() != 0) {
+            $('#education').css({
+                '-webkit-appearance': 'none',
+                '-moz-appearance': 'none',
+                'appearance': 'none'
+            });
+        }
+    });
+    // Input education
+
 });
