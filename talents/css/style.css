@@ -372,6 +372,9 @@ nav {
     border-left: none;
     border-right: none;
 }
+.statements .form-group {
+    margin-bottom: 30px;
+}
 .statements-desc {
     font-size: 12px;
     margin-bottom: 30px;
