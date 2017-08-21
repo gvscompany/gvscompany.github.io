@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home page</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<!--Site background-->
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/php-bg.png" alt=""></div>
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/laravel-bg.png" alt=""></div>
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/bootstrap-bg.png" alt=""></div>
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/ajax-bg.png" alt=""></div>
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/front-bg.png" alt=""></div>
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/mysql-bg.png" alt=""></div>
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/react-bg.png" alt=""></div>
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/angulr-bg.png" alt=""></div>
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/jquery-bg.png" alt=""></div>
+	<div class="Cloud Background" style="overflow: hidden; height: 60px;"><img style="height: 100%;" src="images/html5-bg.png" alt=""></div>
+	<!--Site background-->
+
+	<!--menu-->
+	<nav class="navbar navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-3 col-sm-2">
+					<ul class="list-inline select-lang-ul">
+						<li><a href="#" class="am-a">am</a></li>
+						<li><a href="#" class="en-a">en</a></li>
+						<li><a href="#" class="ru-a">ru</a></li>
+					</ul>
+					<div class="dropdown change-lang-block">
+						<button class="dropdown-toggle change-lang" id="base-lang" type="button" data-toggle="dropdown">
+							<span class="change-lang-text">Lang</span>
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#" class="langs">Հայ</a></li>
+							<li><a href="#" class="langs">En</a></li>
+							<li><a href="#" class="langs">Ру</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-8 logo-col">
+					<a href="#" class="center-block logo-a"><img src="images/logo3.png" class="logo-img" alt="Logo"></a>
+				</div>
+				<div class="col-xs-3 col-sm-2">
+					<span class="page-title">Courses</span>
+					<button type="button" class="pull-right menu-btn">
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!--/menu-->
+
+	<div class="content-block">
+		<!--Site content-->
+		<div class="content">
+			<div class="container base-container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+						<div class="form-block">
+							<h4 class="statements-title">APPLY FOR TRAINING</h4>
+							<p class="statements-desc">By completing this form you send us an application stating that you have a desire to learn from us programming and web technologies.</p>
+							<form action="#" method="post" data-toggle="validator" class="statements">
+								<div class="row">
+									<div class="col-xs-12 col-sm-6">
+										<div class="form-group has-feedback">
+											<input type="text" name="first_name" pattern="[A-Za-z]+" minlength="3"
+												   maxlength="30" class="form-control" placeholder="First name" required>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="form-group has-feedback">
+											<input type="text" name="last_name" pattern="[A-Za-z]+" minlength="6"
+												   maxlength="30" class="form-control" placeholder="Last name..." required>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="form-group has-feedback">
+											<input type="email" name="email" class="form-control" placeholder="Example@gmail.com..." required>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-sm-6">
+										<div class="form-group has-feedback">
+											<input type="text" name="phone" class="form-control" minlength="14"
+												   maxlength="14" id="tel" placeholder="088 88 88 88" required>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="form-group has-feedback">
+											<input type="text" name="birthday" class="form-control" minlength="10"
+												   maxlength="10" id="birthday" placeholder="31/01/2017" required>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="form-group has-feedback">
+											<select name="education" id="education" class="form-control">
+												<option value="0" disabled selected>Choose education</option>
+												<option value="1">Higher education</option>
+												<option value="2">Secondary education</option>
+											</select>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="form-group">
+											<button type="submit" class="btn btn-success center-block send-statement">Send a application</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Site content-->
+
+		<!--Sidebar menu-->
+		<div class="sidebar-menu">
+			<ul class="sidebar-ul">
+				<li style="transition: all 0.05s ease;"><a href="#"><span class="circle"><span class="dot"></span></span>Home</a></li>
+				<li style="transition: all 0.25s ease;"><a href="#"><span class="circle"></span>Courses</a></li>
+				<li style="transition: all 0.50s ease;"><a href="#"><span class="circle"></span>Statement</a></li>
+				<li style="transition: all 0.75s ease;"><a href="#"><span class="circle"></span>About Us</a></li>
+				<li style="transition: all 0.95s ease;"><a href="#"><span class="circle"></span>Contact Us</a></li>
+			</ul>
+			<div class="soc-block">
+				<ul class="list-inline soc-icons">
+					<li>
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--Sidebar menu-->
+	</div>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/validator.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script>
+    // Input type phone number
+    $('#tel').mask('(999) 99-99-99');
+    // Input type phone number
+
+    // Input birthday
+    $('#birthday').mask('99/99/9999', {placeholder:"mm/dd/yyyy"});
+    // Input birthday
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
