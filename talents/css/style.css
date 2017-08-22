@@ -471,7 +471,6 @@ nav {
     width: 100%;
     margin: 20px 0;
     overflow: hidden;
-    border: 1px solid #C1FF95;
     position: relative;
 }
 .map-img-block > img {
@@ -503,6 +502,91 @@ nav {
     opacity: 1;
 }
 /* Contact page ******************************************************/
+
+
+/* Course page ******************************************************/
+.course-info-table > tbody > tr > td > img {
+    width: 100%;
+    height: 60px;
+}
+.course-info-table > tbody > tr > td {
+    border-top: none!important;
+    height: 60px;
+}
+.course-info-table > tbody > tr:first-child > td:first-child {
+    width: 100px;
+}
+.course-info-table > tbody > tr > td:last-child {
+    padding-left: 40px;
+}
+.course-info-table > tbody > tr {
+    background: #222127;
+    color: #fff;
+    transition: all .3s;
+}
+.course-info-table > tbody > tr:hover {
+    background: #4f4b65;
+    color: #fff;
+}
+
+.course-info-table2 > tbody > tr > td {
+    border-top: none!important;
+}
+.course-info-table2 > tbody > tr {
+    background: #222127;
+    color: #fff;
+    height: 50px;
+    transition: all .3s;
+}
+.course-info-table2 > tbody > tr:hover {
+    background: #4F4B65;
+    color: #fff;
+}
+
+.process-title {
+    margin-top: 0;
+    border-bottom: 1px solid #C1FF95;
+}
+.process-title-a {
+    text-transform: uppercase;
+    color: #c1ff95;
+}
+.process-title-a:hover {
+    color: #c1ff95;
+    text-decoration: none;
+}
+.process-img-a {
+    display: inline-block;
+    width: 100%;
+    padding-top: 18px;
+    overflow: hidden;
+}
+.process-img-a > img {
+    width: 100%;
+}
+
+.result-title {
+    margin-top: 0;
+    border-bottom: 1px solid #C1FF95;
+}
+.result-title-a {
+    text-transform: uppercase;
+    color: #c1ff95;
+}
+.result-title-a:hover {
+    color: #c1ff95;
+    text-decoration: none;
+}
+.result-img-a {
+    display: inline-block;
+    width: 100%;
+    padding-top: 18px;
+    overflow: hidden;
+}
+.result-img-a > img {
+    width: 100%;
+}
+/* Course page ******************************************************/
 
 
 
