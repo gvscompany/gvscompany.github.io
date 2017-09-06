@@ -1,5 +1,5 @@
 @import "media.css";
-@font-face {
+/*@font-face {
     font-family: OpenSans-Light;
     src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
 }
@@ -26,7 +26,7 @@
 @font-face {
     font-family: OpenSans-BoldItalic;
     src: url('../fonts/Open_Sans/OpenSans-BoldItalic.ttf');
-}
+}*/
 
 body::-webkit-scrollbar {
     width:5px;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: all .2s ease-in-out;
     color: #fff !important;
     text-transform: uppercase;
-    font-family: OpenSans-Bold;
+    font-family: OpenSans-Bold, Arial, sans-serif;
 }
 .navbar-brand:hover {
     background: transparent;
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     color: #fff !important;
     text-transform: uppercase;
-    font-family: OpenSans-Bold;
+    font-family: OpenSans-Bold, Arial, sans-serif;
 }
 .nav.navbar-nav li a:hover {
     background: transparent;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
 }
 .block1 h2 {
-    font-family: OpenSans-Light;
+    font-family: OpenSans-Light, Arial, sans-serif;
     color: #fff;
     border-bottom: 1px solid #fff;
     padding-bottom: 10px;
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 .block1 .list-group-item span {
     display: inline-block;
     width: 85px;
-    font-family: OpenSans-Semibold;
+    font-family: OpenSans-Semibold, Arial, sans-serif;
     text-transform: uppercase;
 }
 .block1-img {
@@ -407,7 +407,7 @@ a[data-toggle='pill']:active {
     height: 100%;
     position: relative;
     overflow: hidden;
-    font-family: OpenSans-Light;
+    font-family: OpenSans-Light, Arial, sans-serif;
     transition: all .3s ease-in-out;
 }
 .zoom {
@@ -491,7 +491,7 @@ a[data-toggle='pill']:active {
 }
 #section6 form label {
     color: #9f9f9f;
-    font-family: OpenSans-Light;
+    font-family: OpenSans-Light, Arial, sans-serif;
     font-size: 13px;
     display: inline-block;
     position: absolute;
