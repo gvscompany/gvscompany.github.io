@@ -64,7 +64,7 @@ $(document).ready(function () {
 
     // Soc-icons
     $("#social").jsSocials({
-        showLabel: false,
+        showLabel: true,
         showCount: false,
         shares: ["facebook", "twitter", "googleplus", "linkedin"]
     });
