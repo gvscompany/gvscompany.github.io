@@ -62,4 +62,12 @@ $(document).ready(function () {
         });
     });
 
+    // Soc-icons
+    $("#social").jsSocials({
+        showLabel: false,
+        showCount: false,
+        shares: ["facebook", "twitter", "googleplus", "linkedin"]
+    });
+    // Soc-icons
+
 });
