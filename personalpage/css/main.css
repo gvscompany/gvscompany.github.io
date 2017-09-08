@@ -30,7 +30,7 @@
 }*/
 
 @font-face {
-    font-family: 'WeblySleek UI';
+    font-family: 'WeblySleek UI Light';
     src: local('WeblySleek UI Light'),
     local('WeblySleekUILight'),
     url('../fonts/web/weblysleekuilight.woff2') format('woff2'),
@@ -110,8 +110,7 @@ body::-webkit-scrollbar-track {
 html, body {
     margin: 0;
     padding: 0;
-    /*font: 16px OpenSans-Regular, Arial, sans-serif;*/
-    font-family: "WeblySleek UI", Arial, sans-serif;
+    font-family: "WeblySleek UI Light", Arial, sans-serif;
     font-size: 16px;
     background: url("../imges/bg-body.jpg") no-repeat fixed;
 }
