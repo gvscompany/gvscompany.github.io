@@ -1,98 +1,115 @@
 @import "media.css";
 
-/*@font-face {
-    font-family: OpenSans-Light;
-    src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
-}
-@font-face {
-    font-family: OpenSans-LightItalic;
-    src: url('../fonts/Open_Sans/OpenSans-LightItalic.ttf');
-}
-@font-face {
-    font-family: OpenSans-Regular;
-    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
-}
-@font-face {
-    font-family: OpenSans-Semibold;
-    src: url('../fonts/Open_Sans/OpenSans-Semibold.ttf');
-}
-@font-face {
-    font-family: OpenSans-SemiboldItalic;
-    src: url('../fonts/Open_Sans/OpenSans-SemiboldItalic.ttf');
-}
-@font-face {
-    font-family: OpenSans-Bold;
-    src: url('../fonts/Open_Sans/OpenSans-Bold.ttf');
-}
-@font-face {
-    font-family: OpenSans-BoldItalic;
-    src: url('../fonts/Open_Sans/OpenSans-BoldItalic.ttf');
-}*/
+/*@font-face {*/
+    /*font-family: 'WeblySleek UI Light';*/
+    /*src: local('WeblySleek UI Light'),*/
+    /*local('WeblySleekUILight'),*/
+    /*url('../fonts/web/weblysleekuilight.woff2') format('woff2'),*/
+    /*url('../fonts/web/weblysleekuilight.woff') format('woff'),*/
+    /*url('../fonts/web/weblysleekuilight.ttf') format('truetype');*/
+    /*font-weight: 300;*/
+    /*font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+    /*font-family: 'WeblySleek UI';*/
+    /*src: local('WeblySleek UI Light Italic'),*/
+    /*local('WeblySleekUILight-Italic'),*/
+    /*url('../fonts/web/weblysleekuilightitalic.woff2') format('woff2'),*/
+    /*url('../fonts/web/weblysleekuilightitalic.woff') format('woff'),*/
+    /*url('../fonts/web/weblysleekuilightitalic.ttf') format('truetype');*/
+    /*font-weight: 300;*/
+    /*font-style: italic;*/
+/*}*/
+
+/*@font-face {*/
+    /*font-family: 'WeblySleek UI';*/
+    /*src: local('WeblySleek UI Semilight'),*/
+    /*local('WeblySleekUISemilight'),*/
+    /*url('../fonts/web/weblysleekuisemilight.woff2') format('woff2'),*/
+    /*url('../fonts/web/weblysleekuisemilight.woff') format('woff'),*/
+    /*url('../fonts/web/weblysleekuisemilight.ttf') format('truetype');*/
+    /*font-weight: 400;*/
+    /*font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+    /*font-family: 'WeblySleek UI';*/
+    /*src: local('WeblySleek UI Semilight Italic'),*/
+    /*local('WeblySleekUISemilight-Italic'),*/
+    /*url('../fonts/web/weblysleekuisemilightitalic.woff2') format('woff2'),*/
+    /*url('../fonts/web/weblysleekuisemilightitalic.woff') format('woff'),*/
+    /*url('../fonts/web/weblysleekuisemilightitalic.ttf') format('truetype');*/
+    /*font-weight: 400;*/
+    /*font-style: italic;*/
+/*}*/
+
+/*@font-face {*/
+    /*font-family: 'WeblySleek UI';*/
+    /*src: local('WeblySleek UI Semibold'),*/
+    /*local('WeblySleekUISemibold'),*/
+    /*url('../fonts/web/weblysleekuisemibold.woff2') format('woff2'),*/
+    /*url('../fonts/web/weblysleekuisemibold.woff') format('woff'),*/
+    /*url('../fonts/web/weblysleekuisemibold.ttf') format('truetype');*/
+    /*font-weight: 700;*/
+    /*font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+    /*font-family: 'WeblySleek UI';*/
+    /*src: local('WeblySleek UI Semibold Italic'),*/
+    /*local('WeblySleekUISemibold-Italic'),*/
+    /*url('../fonts/web/weblysleekuisemibolditalic.woff2') format('woff2'),*/
+    /*url('../fonts/web/weblysleekuisemibolditalic.woff') format('woff'),*/
+    /*url('../fonts/web/weblysleekuisemibolditalic.ttf') format('truetype');*/
+    /*font-weight: 700;*/
+    /*font-style: italic;*/
+/*}*/
+
 
 @font-face {
-    font-family: 'WeblySleek UI Light';
-    src: local('WeblySleek UI Light'),
-    local('WeblySleekUILight'),
-    url('../fonts/web/weblysleekuilight.woff2') format('woff2'),
-    url('../fonts/web/weblysleekuilight.woff') format('woff'),
-    url('../fonts/web/weblysleekuilight.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+    font-family:'WeblySleekUI';
+    font-weight:400;
+    font-style:normal;
+    src:url('../fonts/web/weblysleekuisl.eot');
+    src:url('../fonts/web/weblysleekuisl.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/web/weblysleekuisl.woff') format('woff'),
+    url('../fonts/web/weblysleekuisl.woff2') format('woff2'),
+    url('../fonts/web/weblysleekuisl.ttf') format('truetype');
+    /*url('../fonts/web/weblysleekuisl.svg#iefix') format('svg');*/
 }
-
 @font-face {
-    font-family: 'WeblySleek UI';
-    src: local('WeblySleek UI Light Italic'),
-    local('WeblySleekUILight-Italic'),
-    url('../fonts/web/weblysleekuilightitalic.woff2') format('woff2'),
-    url('../fonts/web/weblysleekuilightitalic.woff') format('woff'),
-    url('../fonts/web/weblysleekuilightitalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
+    font-family:'WeblySleekUI';
+    font-weight:400;
+    font-style:italic;
+    src:url('../fonts/web/weblysleekuisli.eot');
+    src:url('../fonts/web/weblysleekuisli.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/web/weblysleekuisli.woff') format('woff'),
+    url('../fonts/web/weblysleekuisli.woff2') format('woff2'),
+    url('../fonts/web/weblysleekuisli.ttf') format('truetype');
+    /*url('../fonts/web/weblysleekuisli.svg#iefix') format('svg');*/
 }
-
 @font-face {
-    font-family: 'WeblySleek UI';
-    src: local('WeblySleek UI Semilight'),
-    local('WeblySleekUISemilight'),
-    url('../fonts/web/weblysleekuisemilight.woff2') format('woff2'),
-    url('../fonts/web/weblysleekuisemilight.woff') format('woff'),
-    url('../fonts/web/weblysleekuisemilight.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+    font-family:'WeblySleekUI';
+    font-weight:700;
+    font-style:normal;
+    src:url('../fonts/web/weblysleekuisb.eot');
+    src:url('../fonts/web/weblysleekuisb.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/web/weblysleekuisb.woff') format('woff'),
+    url('../fonts/web/weblysleekuisb.woff2') format('woff2'),
+    url('../fonts/web/weblysleekuisb.ttf') format('truetype');
+    /*url('../fonts/web/weblysleekuisb.svg#iefix') format('svg');*/
 }
-
 @font-face {
-    font-family: 'WeblySleek UI';
-    src: local('WeblySleek UI Semilight Italic'),
-    local('WeblySleekUISemilight-Italic'),
-    url('../fonts/web/weblysleekuisemilightitalic.woff2') format('woff2'),
-    url('../fonts/web/weblysleekuisemilightitalic.woff') format('woff'),
-    url('../fonts/web/weblysleekuisemilightitalic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'WeblySleek UI';
-    src: local('WeblySleek UI Semibold'),
-    local('WeblySleekUISemibold'),
-    url('../fonts/web/weblysleekuisemibold.woff2') format('woff2'),
-    url('../fonts/web/weblysleekuisemibold.woff') format('woff'),
-    url('../fonts/web/weblysleekuisemibold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'WeblySleek UI';
-    src: local('WeblySleek UI Semibold Italic'),
-    local('WeblySleekUISemibold-Italic'),
-    url('../fonts/web/weblysleekuisemibolditalic.woff2') format('woff2'),
-    url('../fonts/web/weblysleekuisemibolditalic.woff') format('woff'),
-    url('../fonts/web/weblysleekuisemibolditalic.ttf') format('truetype');
-    font-weight: 700;
-    font-style: italic;
+    font-family:'WeblySleekUI';
+    font-weight:700;
+    font-style:italic;
+    src:url('../fonts/web/weblysleekuisbi.eot');
+    src:url('../fonts/web/weblysleekuisbi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/web/weblysleekuisbi.woff') format('woff'),
+    url('../fonts/web/weblysleekuisbi.woff2') format('woff2'),
+    url('../fonts/web/weblysleekuisbi.ttf') format('truetype');
+    /*url('../fonts/web/weblysleekuisbi.svg#iefix') format('svg');*/
 }
 
 body::-webkit-scrollbar {
@@ -110,14 +127,14 @@ body::-webkit-scrollbar-track {
 html, body {
     margin: 0;
     padding: 0;
-    font-family: "WeblySleek UI Light", Arial, sans-serif;
+    font-family: 'WeblySleekUI',Arial,Helvetica,'Trebuchet MS',sans-serif;
     font-size: 16px;
     background: url("../imges/bg-body.jpg") no-repeat fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    font-family: "WeblySleek UI", Arial, sans-serif;
+    font-family: 'WeblySleekUI',Arial,Helvetica,'Trebuchet MS',sans-serif;
 }
 
 /* MENU */
