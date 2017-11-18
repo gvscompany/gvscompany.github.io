@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #789;
+    background: #eee;
+}
+
+/* DISPLAY **************************************************************/
+/*.block {*/
+    /*display: inline;*/
+/*}*/
+/*.inline {*/
+    /*display: block;*/
+/*}*/
+/*.google-link {*/
+    /*display: inline-block;*/
+    /*width: 200px;*/
+    /*height: 40px;*/
+    /*background: #789;*/
+    /*color: #fff;*/
+    /*line-height: 40px;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/* MARGIN & PADDING *************************************************/
+/*.text {*/
+/*width: 300px;*/
+/*background: #789;*/
+/*color: #fff;*/
+/*margin: 30px 50px 70px 90px;*/
+/*padding: 10px 20px 30px 40px;*/
+/*}*/
+
+/* BORDER **************************************************************/
+/*.img-block {*/
+/*width: 350px;*/
+/*height: 350px;*/
+/*margin: 100px;*/
+/*border-top: 2px solid #fff924;*/
+/*border-right: 4px dashed #789;*/
+/*border-bottom: 6px dotted #149910;*/
+/*border-left: 8px solid #99281d;*/
+/*border-radius: 10px;*/
+/*}*/
+/*.img-block {*/
+/*width: 350px;*/
+/*height: 350px;*/
+/*margin: 100px;*/
+/*border: 40px solid #ccc;*/
+/*border-image: url(../images/border-bg.png) 40 repeat;*/
+/*}*/
+
+/* POSITION ************************************************************/
+/*.block {*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*background: coral;*/
+    /*!*position: relative;*!*/
+    /*!*top: 50px;*!*/
+    /*!*left: 50px;*!*/
+/*}*/
+/*.block {*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*background: coral;*/
+    /*!*position: absolute;*!*/
+    /*!*top: 50px;*!*/
+    /*!*left: 50px;*!*/
+/*}*/
+/*.block {*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*background: coral;*/
+    /*!*position: fixed;*!*/
+    /*!*top: 10px;*!*/
+    /*!*right: 10px;*!*/
+/*}*/
+/*body {*/
+    /*height: 1500px;*/
+/*}*/
+
+/*.block {*/
+    /*height: 300px;*/
+    /*border: 2px solid coral;*/
+/*}*/
+/*.sub-block {*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background: coral;*/
+/*}*/
+
+
+
+
+/* FLOAT ****************************************************************/
+/*.post {*/
+    /*border: 1px solid #789;*/
+    /*background: coral;*/
+    /*display: table;*/
+    /*width: 100%;*/
+    /*!*overflow: hidden;*!*/
+/*}*/
+/*.post > div {*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*border: 3px solid #789;*/
+/*}*/
+/*.img-block1 {*/
+    /*float: left;*/
+/*}*/
+/*.img-block2 {*/
+    /*float: right;*/
+/*}*/
+/*.post > p {*/
+    /*clear: both;*/
+/*}*/
+
+
+/*.post2 {*/
+    /*display: table;*/
+    /*background: #fff;*/
+    /*border: 2px solid coral;*/
+    /*margin-bottom: 10px;*/
+    /*padding: 10px;*/
+/*}*/
+/*.post2 > img {*/
+    /*float: left;*/
+    /*margin: 10px;*/
+/*}*/
+/*.post3 {*/
+    /*display: table;*/
+    /*background: #fff;*/
+    /*border: 2px solid coral;*/
+    /*margin-bottom: 10px;*/
+    /*padding: 10px;*/
+/*}*/
+/*.post3 > img {*/
+    /*float: right;*/
+    /*margin: 10px;*/
+/*}*/
+
+/*ul {*/
+    /*margin: 0;*/
+    /*list-style: none;*/
+    /*padding: 20px;*/
+    /*background: #789;*/
+    /*overflow: auto;*/
+/*}*/
+/*li {*/
+    /*float: left;*/
+    /*width: calc(100% / 4 - 20px);*/
+    /*height: 40px;*/
+    /*line-height: 40px;*/
+    /*margin-right: 20px;*/
+    /*text-align: center;*/
+    /*background: #303740;*/
+    /*color: #fff;*/
+/*}*/
+/*li:last-child {*/
+    /*margin-right: 0;*/
+/*}*/
+
+/* TEXT-ALIGN **********************************************************/
+/*.text-block {*/
+    /*text-align: right;*/
+/*}*/
+/*.text-block p:nth-child(1) {*/
+    /*text-align: left;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+/*.text-block p:nth-child(2) {*/
+    /*text-align: center;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+/*.text-block p:nth-child(3) {*/
+    /*text-align: right;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+/*.text-block p:nth-child(4) {*/
+    /*text-align: justify;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+/*.text-block p:nth-child(5) {*/
+    /*text-align: inherit;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+
+
+/* TEXT-INDENT ********************************************************/
+/*.first {*/
+    /*text-indent: 50px;*/
+/*}*/
+/*.second {*/
+    /*text-indent: 15%;*/
+/*}*/
+
+/* LINE-HEIGHT *********************************************************/
+/*.line {*/
+    /*border: 1px solid #404a55;*/
+    /*font-size: 20px;*/
+    /*height: 100px;*/
+    /*line-height: 100px;*/
+    /*text-align: center;*/
+/*}*/
+/*.btn {*/
+    /*border: 1px solid red;*/
+    /*text-decoration: none;*/
+    /*background: red;*/
+    /*color: #fff;*/
+    /*display: inline-block;*/
+    /*width: 150px;*/
+    /*height: 40px;*/
+    /*text-align: center;*/
+    /*line-height: 40px;*/
+/*}*/
+
+
+/* VERTICAL-ALIGN *****************************************************/
+/*.text {*/
+    /*font-size: 24px;*/
+/*}*/
+/*.text .sub {*/
+    /*vertical-align: sub;*/
+    /*font-size: 24px;*/
+    /*color: red;*/
+/*}*/
+
+/* WORD-SPACING *****************************************************/
+/*.wspacing {*/
+    /*word-spacing: 20px;*/
+/*}*/
+
+/* LETTER-SPACING *****************************************************/
+/*.lspacing {*/
+    /*letter-spacing: 20px;*/
+/*}*/
+
+/* WHITE-SPACE ********************************************************/
+/*.wspace {*/
+    /*width: 500px;*/
+    /*border: 1px solid #4b5560;*/
+     /*!*Запрещает пробел *!*/
+    /*white-space: nowrap;*/
+
+     /*!*Разрешает пробел *!*/
+    /*!*white-space: pre-wrap;*!*/
+
+    /*!*Удаляет лишние пробелы*!*/
+    /*!*white-space: pre-line;*!*/
+/*}*/
+
+/* TEXT-TRANSFORM ***************************************************/
+/*.tt {*/
+    /*text-transform: uppercase;*/
+    /*!*text-transform: lowercase;*!*/
+    /*!*text-transform: capitalize;*!*/
+/*}*/
+
+/* DIRECTION ***********************************************************/
+/*.text-dir {*/
+    /*direction: rtl;*/
+/*}*/
+
+/* UNICOD-BIDI *********************************************************/
+/*.text-dir2 {*/
+    /*direction: rtl;*/
+    /*unicode-bidi: bidi-override;*/
+/*}*/
+
+/*.scroll {*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*border: 1px solid #789;*/
+    /*!*overflow-y: scroll;*!*/
+    /*!*direction: rtl;*!*/
+    /*!*text-align: left;*!*/
+/*}*/
+
+/* TEXT-DECORATION ***************************************************/
+/*h3 {*/
+    /*text-decoration: underline;*/
+    /*text-decoration: overline;*/
+    /*text-decoration: line-through;*/
+/*}*/
+/*.first {*/
+    /*width: 250px;*/
+    /*line-height: 40px;*/
+    /*background: #fff;*/
+    /*color: #789;*/
+/*}*/
+/*.first:first-line {*/
+    /*color: coral;*/
+    /*font-weight: bold;*/
+/*}*/
+/*.first:first-letter {*/
+    /*background: coral;*/
+    /*color: #fff;*/
+    /*font-weight: bold;*/
+    /*padding: 5px 10px;*/
+    /*margin-right: 10px;*/
+/*}*/
+
+
+
+/* FONT *****************************************************************/
+/* font: font-style font-variant font-weight font-size/line-height font-family */
+/*.font {*/
+    /*!*font-family: Arial, Verdana, Tahoma, sans-serif;*!*/
+    /*!*font-style: italic;*!*/
+    /*!*font-variant: all-small-caps;*!*/
+    /*!*font-size: 24px;*!*/
+    /*!*font-weight: bold;*!*/
+    /*color: rgb(255, 127, 80);*/
+    /*color: rgba(255, 127, 80, 0.70);*/
+    /*font: small-caps bold 22px Arial, Verdana, Tahoma, sans-serif;*/
+    /*color: coral;*/
+/*}*/
+
+
+
+
+
+
+
+
+
