@@ -32,13 +32,21 @@ body {
 /* // logo img fixed "Lexis" */
 
 /* // header navigation */
+.h_nav {
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Times New Roman", sans-serif;
+}
+
 p.icon_bar {
-    width: 20%;
-    margin: 0;
-    text-align: center;
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0);
-    background-color: rgba(135, 135, 135, 0);
+    display: none;
+    /*width: 20%;*/
+    /*margin: 0;*/
+    /*text-align: center;*/
+    /*font-size: 18px;*/
+    /*color: rgba(255, 255, 255, 0);*/
+    /*background-color: rgba(135, 135, 135, 0);*/
 }
 .icon_bar a:link {
     display: block;
@@ -63,12 +71,7 @@ p.icon_bar {
     text-decoration: none;
     color: rgba(255, 255, 255, 0);
 }
-.h_nav {
-    text-align: right;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: "Times New Roman", sans-serif;
-}
+
 
 .h_nav ul {
     margin: 0;
@@ -160,7 +163,7 @@ p.icon_bar {
 
 .h_title_content a.h_btn_link:hover {
     display: block;
-    margin: 60px 300px 0 300px;
+    margin: 50px auto;
     height: 35px;
     width: 140px;
     text-align: center;
@@ -449,14 +452,44 @@ p.icon_bar {
     font-size: 17px;
 
 }
-.blue2_content h6 {
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
+/*.blue2_content h6 {*/
+    /*text-transform: uppercase;*/
+    /*text-align: center;*/
+    /*letter-spacing: 3px;*/
+
+/*}*/
+.circle_container {
+    margin: 0 auto;
+}
+
+.circle {
+    display: inline-block;
+    margin: 0 5px;
+    width : 15px;
+    height : 15px;
+    background-color: rgba(23, 168, 215, 0.88);
+    border-radius: 50%;
+    /*border: 1px solid white;*/
+    transition: all 1s;
+    transition-timing-function: linear;
 
 }
+.circle:hover {
+    display: inline-block;
+    margin: 0 5px;
+    width : 15px;
+    height : 15px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 50%;
+    /*border: 1px solid white;*/
+    cursor: pointer;
+}
+h3.h3_content2, h3.h3_content3, h3.h3_content4 {
+    /*color: transparent;*/
+    display: none;
+    /*color:red;*/
+}
 /* // main bottom blue2 bg content div */
-
 
 /* form content div */
 .form_content {
@@ -535,9 +568,15 @@ footer{
 
 /* footer container div  */
 div.footer {
-    margin: 0 auto;
+    margin: 10px auto;
     width:80%;
     vertical-align: top;
+    /*border: 1px solid aqua;*/
+}
+
+div.content {
+    margin: 0 auto;
+    width: 75%;
 }
 /* // footer container div  */
 
@@ -549,7 +588,7 @@ div.f_location {
 
 .f_location p {
     font-size: 10px;
-    color: #5f5f5f;
+    color: #303030;
     text-transform: capitalize;
     line-height: 16px;
     font-weight: bold;
@@ -565,25 +604,25 @@ div.f_location {
 }
 
 .mailto:link {
-    color: #5f5f5f;
+    color: #303030;
     text-decoration: none;
     cursor: pointer;
 }
 
 .mailto:visited {
-    color: #5f5f5f;
+    color: #303030;
     text-decoration: none;
     cursor: pointer;
 }
 
 .mailto:hover {
-    color: #5f5f5f;
+    color: #e9e9e9;
     text-decoration: none;
     cursor: pointer;
 }
 
 .mailto:active {
-    color: #5f5f5f;
+    color: #303030;
     text-decoration: none;
     cursor: pointer;
 }
@@ -597,12 +636,12 @@ div.f_services {
 }
 
 .f_services p a:link {
-    color: #575757;
+    color: #303030;
     text-decoration: none;
 }
 
 .f_services p a:visited {
-    color: #575757;
+    color: #303030;
     text-decoration: none;
 }
 
@@ -625,7 +664,7 @@ div.f_share {
 }
 
 .f_icon {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .f_icon a:link {
@@ -656,13 +695,14 @@ div.f_share {
 
 div.f_location h5, div.f_services h5, div.f_share h5 {
     text-transform: uppercase;
-    color: #2f2f2f;
+    font-size: 12px;
+    color: #121212;
 }
 
 .f_services p, div.f_share p {
     font-size: 10px;
     text-transform: capitalize;
-    color: #121212;
+    color: #0c0c0c;
     font-weight: bold;
     line-height: 16px;
 }

@@ -116,7 +116,7 @@
         /*background: lightblue;*/
     }
     body:before {
-        /*content: '991px';*/
+        content: '991px';
     }
 
     .h_banner {
@@ -132,8 +132,104 @@
     }
 
     /* header navigation */
+
+    p.icon_bar {
+        display: block;
+        width: 20%;
+        margin: 0 0 5px 30%;
+        text-align: center;
+        font-size: 18px;
+        color:#fff;
+        background-color: rgba(135, 135, 135, 0.69);
+        border: 1px solid rgba(130, 130, 130, 0.67);
+    }
+
+    .icon_bar a:link {
+        display: block;
+        padding: 3px 0;
+        width: 100%;
+        color:#fff;
+        text-decoration: none;
+    }
+    .icon_bar a:visited {
+        width: 100%;
+        padding: 3px 0;
+        display: block;
+        text-decoration: none;
+        color:#fff;
+    }
+    .icon_bar a:hover {
+        display: block;
+        padding: 3px 0;
+        width: 100%;
+        text-decoration: none;
+        background-color: rgba(194, 194, 194, 0.69);
+        box-sizing: border-box;
+        box-shadow: -3px 3px 3px #686868;
+        text-decoration: none;
+        color:#fff;
+        cursor: pointer;
+    }
+    .icon_bar a:active {
+        /*display: block;*/
+        /*padding: 3px 0;*/
+        /*width: 100%;*/
+        /*text-decoration: none;*/
+        /*color:#fff;*/
+        /*cursor: pointer;*/
+    }
+
+    .h_nav {
+        text-align: left;
+
+    }
+
     .h_nav ul li {
-        margin: 30px 0 20px 20px;
+        display: block;
+        margin: 5px 0 5px 30%;
+        font-size: 11px;
+        background-color: rgba(135, 135, 135, 0.69);
+        border: 1px solid rgba(130, 130, 130, 0.67);
+        /*padding: 5px;*/
+        width:35%;
+    }
+    .h_nav ul li a:link {
+        padding: 5px;
+        margin: 0;
+        /*border:1px solid aqua;*/
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:visited {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:hover {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        background-color: rgba(162, 162, 162, 0.69);
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:active {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
     }
     /* // header navigation */
 
@@ -192,6 +288,11 @@
     .art_item:nth-child(2), .art_item:nth-child(5) {
         margin: 0 5px;
     }
+
+    /* main item's container div */
+    .art_item {
+        width: 45%;
+    }
     /* // main item's container div */
 
     /*  main team's photo container div */
@@ -202,7 +303,7 @@
 
     /* member's div */
     .team_member {
-        width: 22%;
+        width: 45%;
         text-align: center;
         display: inline-block;
         overflow: hidden;
@@ -253,7 +354,7 @@
         /*background: blueviolet;*/
     }
     body:before {
-        /*content: '768px';*/
+        content: '768px';
     }
 
     .h_banner {
@@ -273,9 +374,105 @@
     }
 
     /* header navigation */
+
+    p.icon_bar {
+        display: block;
+        width: 20%;
+        margin: 0 0 5px 30%;
+        text-align: center;
+        font-size: 18px;
+        color:#fff;
+        background-color: rgba(135, 135, 135, 0.69);
+        border: 1px solid rgba(130, 130, 130, 0.67);
+    }
+
+    .icon_bar a:link {
+        display: block;
+        padding: 3px 0;
+        width: 100%;
+        color:#fff;
+        text-decoration: none;
+    }
+    .icon_bar a:visited {
+        width: 100%;
+        padding: 3px 0;
+        display: block;
+        text-decoration: none;
+        color:#fff;
+    }
+    .icon_bar a:hover {
+        display: block;
+        padding: 3px 0;
+        width: 100%;
+        text-decoration: none;
+        background-color: rgba(194, 194, 194, 0.69);
+        /*border: 1px solid rgba(95, 95, 95, 0.67);*/
+        box-sizing: border-box;
+        box-shadow: -3px 3px 3px #686868;
+        text-decoration: none;
+        color:#fff;
+        cursor: pointer;
+    }
+    .icon_bar a:active {
+        display: block;
+        padding: 3px 0;
+        width: 100%;
+        text-decoration: none;
+        color:#fff;
+        cursor: pointer;
+    }
+
+    .h_nav {
+        text-align: left;
+
+    }
+
     .h_nav ul li {
-        margin: 30px 0 15px 15px;
+        display: block;
+        margin: 5px 0 5px 30%;
         font-size: 11px;
+        background-color: rgba(135, 135, 135, 0.69);
+        border: 1px solid rgba(130, 130, 130, 0.67);
+        /*padding: 5px;*/
+        width:40%;
+    }
+    .h_nav ul li a:link {
+        padding: 5px;
+        margin: 0;
+        /*border:1px solid aqua;*/
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:visited {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:hover {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        background-color: rgba(162, 162, 162, 0.69);
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:active {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
     }
     /* // header navigation */
 
@@ -334,6 +531,13 @@
         margin: 0 10px;
     }
     /* // main item's container div */
+
+    /* main item's container div */
+    .art_item {
+        width: 45%;
+        /*margin: 10px 0;*/
+        /*height: 100%;*/
+    }
 
     /* main gallery item's container div */
     .gal_item {
@@ -430,11 +634,14 @@
         display: block;
         padding: 3px 0;
         width: 100%;
+        text-decoration: none;
         background-color: rgba(194, 194, 194, 0.69);
-        border: 1px solid rgba(95, 95, 95, 0.67);
-        box-shadow: 3px 3px 3px #686868;
+        /*border: 1px solid rgba(95, 95, 95, 0.67);*/
+        box-sizing: border-box;
+        box-shadow: -3px 3px 3px #686868;
         text-decoration: none;
         color:#fff;
+        cursor: pointer;
     }
     .icon_bar a:active {
         display: block;
@@ -442,10 +649,12 @@
         width: 100%;
         text-decoration: none;
         color:#fff;
+        cursor: pointer;
     }
 
     .h_nav {
         text-align: left;
+
     }
 
     .h_nav ul li {
@@ -454,8 +663,46 @@
         font-size: 11px;
         background-color: rgba(135, 135, 135, 0.69);
         border: 1px solid rgba(130, 130, 130, 0.67);
+        /*padding: 5px;*/
+        width:45%;
+    }
+    .h_nav ul li a:link {
         padding: 5px;
-        width:50%;
+        margin: 0;
+        /*border:1px solid aqua;*/
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:visited {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:hover {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        background-color: rgba(162, 162, 162, 0.69);
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:active {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
     }
     /* // header navigation */
 
@@ -512,7 +759,7 @@
 
     /* main item's container div */
     .art_item {
-        width: 45%;
+        width: 98%;
     }
 
     .art_item:nth-child(2), .art_item:nth-child(4), .art_item:nth-child(6) {
@@ -628,11 +875,14 @@
         display: block;
         padding: 3px 0;
         width: 100%;
+        text-decoration: none;
         background-color: rgba(194, 194, 194, 0.69);
-        border: 1px solid rgba(95, 95, 95, 0.67);
-        box-shadow: 3px 3px 3px #686868;
+        /*border: 1px solid rgba(95, 95, 95, 0.67);*/
+        box-sizing: border-box;
+        box-shadow: -3px 3px 3px #686868;
         text-decoration: none;
         color:#fff;
+        cursor: pointer;
     }
     .icon_bar a:active {
         display: block;
@@ -640,6 +890,7 @@
         width: 100%;
         text-decoration: none;
         color:#fff;
+        cursor: pointer;
     }
 
     .h_nav {
@@ -653,8 +904,46 @@
         font-size: 11px;
         background-color: rgba(135, 135, 135, 0.69);
         border: 1px solid rgba(130, 130, 130, 0.67);
+        /*padding: 5px;*/
+        width:45%;
+    }
+    .h_nav ul li a:link {
         padding: 5px;
-        width:50%;
+        margin: 0;
+        /*border:1px solid aqua;*/
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:visited {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:hover {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        background-color: rgba(162, 162, 162, 0.69);
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:active {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
     }
     /* // header navigation */
 
@@ -830,11 +1119,14 @@
         display: block;
         padding: 3px 0;
         width: 100%;
+        text-decoration: none;
         background-color: rgba(194, 194, 194, 0.69);
-        border: 1px solid rgba(95, 95, 95, 0.67);
-        box-shadow: 3px 3px 3px #686868;
+        /*border: 1px solid rgba(95, 95, 95, 0.67);*/
+        box-sizing: border-box;
+        box-shadow: -3px 3px 3px #686868;
         text-decoration: none;
         color:#fff;
+        cursor: pointer;
     }
     .icon_bar a:active {
         display: block;
@@ -842,10 +1134,12 @@
         width: 100%;
         text-decoration: none;
         color:#fff;
+        cursor: pointer;
     }
 
     .h_nav {
         text-align: left;
+
     }
 
     .h_nav ul li {
@@ -854,8 +1148,46 @@
         font-size: 11px;
         background-color: rgba(135, 135, 135, 0.69);
         border: 1px solid rgba(130, 130, 130, 0.67);
-        padding: 5px;
+        /*padding: 5px;*/
         width:50%;
+    }
+    .h_nav ul li a:link {
+        padding: 5px;
+        margin: 0;
+        /*border:1px solid aqua;*/
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:visited {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:hover {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        background-color: rgba(162, 162, 162, 0.69);
+        /*cursor:pointer;*/
+    }
+    .h_nav ul li a:active {
+        padding: 5px;
+        margin: 0;
+        display:block;
+        box-sizing: border-box;
+        height:100%;
+        width:100%;
+        /*cursor:pointer;*/
     }
     /* // header navigation */
 
