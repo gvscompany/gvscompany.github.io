@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+body {
+    padding: 50px 0 0 0;
+}
+.body-open {
+    overflow: hidden;
+}
+.navmenu-fixed-left {
+    z-index: 1050;
+}
+.navmenu {
+    padding-top: 50px;
+}
+.navbar {
+    display: block;
+    text-align: center;
+}
+.navbar-brand {
+    display: inline-block;
+    float: none;
+}
+.navbar-toggle {
+    position: absolute;
+    float: left;
+    margin-left: 15px;
+}
+.container {
+    max-width: 100%;
+}
