@@ -8,7 +8,7 @@ body {
     overflow: hidden;
 }
 .navmenu-fixed-left {
-    z-index: 1050;
+    z-index: 1030;
 }
 .navmenu {
     padding-top: 50px;
