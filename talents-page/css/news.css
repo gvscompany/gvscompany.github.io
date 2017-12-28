@@ -4,12 +4,6 @@ html, body {
 body {
     padding: 50px 0 0 0;
 }
-.body-open {
-    overflow: hidden;
-}
-.navmenu-fixed-left {
-    z-index: 1030;
-}
 .navmenu {
     padding-top: 50px;
 }
@@ -28,4 +22,20 @@ body {
 }
 .container {
     max-width: 100%;
+}
+@media (min-width: 1px) {
+    .navbar-toggle {
+        display: block !important;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        padding: 0 0 0 300px;
+    }
+    .navmenu {
+        padding-top: 0;
+    }
+    .navbar {
+        display: none !important; /* для IE8 */
+    }
 }
