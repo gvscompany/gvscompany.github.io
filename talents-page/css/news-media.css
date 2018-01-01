@@ -1,0 +1,144 @@
+@media (min-width: 1px) {
+    .navbar-toggle {
+        display: block !important;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        padding: 0 0 0 300px;
+    }
+    .navmenu {
+        padding-top: 0;
+    }
+    .navbar-toggle {
+        display: none !important; /* для IE8 */
+    }
+}
+
+
+@media screen and (min-width : 1200px) {
+    .masonry[data-columns]::before {
+        content: '3 .col-xs-4';
+    }
+}
+
+@media screen and (min-width : 992px) and (max-width : 1199px) {
+    .masonry[data-columns]::before {
+        content: '3 .col-xs-4';
+    }
+
+    .carousel-caption-h3 {
+        font-size: 22px;
+        margin: 5px 0;
+    }
+
+    .carousel-caption.news-carousel-caption {
+        width: 60%;
+        left: 8%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 991px) {
+    .masonry[data-columns]::before {
+        content: '3 .col-xs-4';
+    }
+
+    .carousel-caption.news-carousel-caption {
+        width: 60%;
+        left: 10%;
+        bottom: 15%;
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width : 560px) and (max-width : 767px) {
+    .masonry[data-columns]::before {
+        content: '2 .col-xs-6';
+    }
+
+    .carousel-caption.news-carousel-caption {
+        width: 80%;
+        left: 10%;
+        bottom: 15%;
+        padding: 10px;
+    }
+    .carousel-caption-a {
+        font-size: 12px;
+        padding: 2px 4px;
+    }
+    .carousel-caption-h3 {
+        font-variant: all-petite-caps;
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    .carousel-caption-p {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width : 481px) and (max-width : 559px) {
+    .masonry[data-columns]::before {
+        content: '2 .col-xs-6';
+    }
+
+    .carousel-caption.news-carousel-caption {
+        width: 80%;
+        left: 10%;
+        bottom: 15%;
+        padding: 10px;
+    }
+    .carousel-caption-a {
+        font-size: 12px;
+        padding: 2px 4px;
+    }
+    .carousel-caption-h3 {
+        font-variant: all-petite-caps;
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    .carousel-caption-p {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width : 320px) and (max-width : 480px) {
+    .masonry[data-columns]::before {
+        content: '1 .col-xs-12';
+    }
+
+    .left.carousel-control, .right.carousel-control, .carousel-indicators {
+        display: none;
+    }
+    .navbar-open {
+        position: absolute;
+        top: 0px;
+        left: 8px;
+    }
+    .carousel-caption.news-carousel-caption {
+        width: 80%;
+        left: 10%;
+        bottom: 10%;
+        padding: 5px;
+    }
+
+    .carousel-caption.news-carousel-caption {
+        width: 84%;
+        left: 12%;
+        bottom: 5%;
+        padding: 5px;
+    }
+    .carousel-caption-a {
+        padding: 2px 4px;
+        font-size: 12px;
+    }
+    .carousel-caption-p {
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    .carousel-caption-h3 {
+        font-variant: all-petite-caps;
+        margin: 2px 0 4px 0;
+        font-size: 16px;
+    }
+}
