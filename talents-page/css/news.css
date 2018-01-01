@@ -396,6 +396,32 @@ footer {
 }
 /* /News Footer */
 
+/* one-news page */
+.base-text {
+    text-align: justify;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.base-text-img {
+    width: 500px;
+    height: 250px;
+    float: right;
+    margin: 10px 0 0 10px;
+}
+.base-text-video {
+    float: left;
+    margin: 10px 10px 0 0;
+}
+.carousel-caption.news-carousel-caption.one-news-carousel-caption {
+    width: 50%;
+    left: calc(50% - 25%);
+    bottom: 30%;
+    background: rgba(0, 128, 0, 0.8);
+    text-align: center;
+    padding: 50px 30px;
+}
+/* one-news page */
+
 
 
 

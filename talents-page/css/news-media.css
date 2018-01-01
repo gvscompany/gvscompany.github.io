@@ -1,3 +1,4 @@
+/* Menu sidebar */
 @media (min-width: 1px) {
     .navbar-toggle {
         display: block !important;
@@ -14,7 +15,7 @@
         display: none !important; /* для IE8 */
     }
 }
-
+/* Menu sidebar */
 
 @media screen and (min-width : 1200px) {
     .masonry[data-columns]::before {
