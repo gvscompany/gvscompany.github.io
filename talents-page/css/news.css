@@ -415,7 +415,7 @@ footer {
 .carousel-caption.news-carousel-caption.one-news-carousel-caption {
     width: 50%;
     left: calc(50% - 25%);
-    bottom: 30%;
+    bottom: 15%;
     background: rgba(0, 128, 0, 0.8);
     text-align: center;
     padding: 50px 30px;
