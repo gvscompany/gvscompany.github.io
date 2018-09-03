@@ -11,6 +11,8 @@ $('a[href^="#"]').on('click', function (e) {
 // PAGE SCROLL END ====================
 
 
+$('[data-toggle="popover"]').popover();
+
 
 // Initialize and add the map
     function initMap() {
