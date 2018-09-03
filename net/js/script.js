@@ -3,7 +3,7 @@ $('a[href^="#"]').on('click', function (e) {
     e.preventDefault();
     $('.navbar-collapse.collapse').removeClass('show');
     var currentSectionId = $(this).attr('href');
-    var scrollSize = $(currentSectionId).offset().top - 50;
+    var scrollSize = $(currentSectionId).offset().top - 80;
     $('html, body').animate({
         scrollTop: scrollSize
     },1000);
