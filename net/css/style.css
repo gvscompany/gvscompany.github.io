@@ -391,6 +391,9 @@ header::before {
     margin-bottom: 0;
     font-size: 18px;
 }
+.phone p a:hover, .email p a:hover {
+    color: #fff;
+}
 
 #map {
     height: 450px;
@@ -488,17 +491,21 @@ footer h2 {
     }
     .services {
         padding-top: 0;
+        margin-bottom: 70px;
     }
     .services-svg {
-        background: #fff;
+        display: none;
     }
     .services-content {
         position: static;
         margin-bottom: 25px;
     }
+    .services-content p {
+        margin-bottom: 50px;
+    }
     .services-content p::before {
         left: 0;
-        height: 280px
+        height: 150px;
     }
     .hours24 {
         left: 40%;
@@ -516,21 +523,27 @@ footer h2 {
         border: 4px solid #FFDB48;
         padding: 20px;
         text-align: center;
+        margin-bottom: 40px;
     }
     .about-us-info::before {
         display: none;
     }
     .about-us-info svg {
-        position: absolute!important;
-        top: 20px!important;
-        left: 275px!important;
-        background: #fff;
+        display: none
     }
     .contacts-info {
         margin-top: 40px;
     }
     footer {
         height: 18vh;
+    }
+    .footer-logo {
+        width: 50px;
+        height: 50px;
+        top: -25px;
+    }
+    .footer-logo span {
+        font-size: 30px;
     }
     footer h2 {
         font-size: 22px;
@@ -540,9 +553,6 @@ footer h2 {
     }
 }
 @media screen and (max-width: 576px) {
-    .services-svg {
-        display: none;
-    }
     .services-content p::before {
         height: 100%;
     }
@@ -556,9 +566,6 @@ footer h2 {
         margin-top: 45px;
         left: 0;
     }
-    .about-us-info svg {
-        display: none;
-    }
     .contacts-info {
         margin-top: 50px;
     }
@@ -569,5 +576,11 @@ footer h2 {
     }
     .footer-logo span {
         font-size: 30px;
+    } 
+    footer h2 {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 12px;
     }
 }
