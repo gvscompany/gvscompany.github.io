@@ -460,8 +460,14 @@ footer h2 {
     }
 }
 @media screen and (max-width: 768px) {
+    h4 {
+        font-size: 1.3rem;
+    }
     .navbar {
          padding: .5rem 1rem;
+    }
+    .nav-link {
+        font-size: 14px;
     }
     .header-content {
         width: auto;
